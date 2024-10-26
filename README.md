@@ -1,4 +1,4 @@
-# Project Title: Classification Model for Demand Class of Warehouse and Retail Sales
+# Classification Model for Demand Class of Warehouse and Retail Sales
 #### Original Dataset Source URL - https://catalog.data.gov/dataset/warehouse-and-retail-sales
 #### Raw Dataset Source URL - https://data.montgomerycountymd.gov/api/views/v76h-r7br/rows.csv?accessType=DOWNLOAD
 
