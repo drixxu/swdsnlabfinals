@@ -34,39 +34,39 @@ The dataset was preprocessed to enhance data quality and model performance:
 Key visualizations helped illustrate sales trends and demand characteristics:
 1. **Distribution of Demand Classes**:
 ![alt text](images/distribdemand.png)
-The chart reveals a significant imbalance in the distribution of demand classes, with class 0 (Low) dominating the dataset, followed by class (High), and class (Medium) being the least frequent.
+<br>The chart reveals a significant imbalance in the distribution of demand classes, with class 0 (Low) dominating the dataset, followed by class (High), and class (Medium) being the least frequent.
 
 2. **Distribution of Retail Transfers and Warehouse Sales**:
 ![alt text](images/distribretailwarehouse.png)
-The chart displays the distribution of retail transfers and warehouse sales, revealing a significant positive skew in both categories. This suggests that a majority of transactions involve smaller amounts, with a few larger transactions skewing the distribution to the right.
+<br>The chart displays the distribution of retail transfers and warehouse sales, revealing a significant positive skew in both categories. This suggests that a majority of transactions involve smaller amounts, with a few larger transactions skewing the distribution to the right.
 
 3. **Correlation Matrix of Features**:
 ![alt text](images/corr.png)
-The correlation matrix highlights a strong positive association between Warehouse Sales and Retail Transfers, suggesting a direct relationship between the two. While Year and Month show a moderate negative correlation due to cyclical nature, other features exhibit weak to negligible correlations, indicating limited linear relationships.
+<br>The correlation matrix highlights a strong positive association between Warehouse Sales and Retail Transfers, suggesting a direct relationship between the two. While Year and Month show a moderate negative correlation due to cyclical nature, other features exhibit weak to negligible correlations, indicating limited linear relationships.
 
 4. **Monthly Demand Trend**:
 ![alt text](images/month.png)
-The bar chart illustrates the monthly demand trends for retail transfers and warehouse sales. Both categories exhibit seasonal patterns with peaks in months 7 and 9. While retail transfers remain relatively consistent throughout the year, warehouse sales show a more pronounced seasonal variation, with higher sales in the latter half of the year.
+<br>The bar chart illustrates the monthly demand trends for retail transfers and warehouse sales. Both categories exhibit seasonal patterns with peaks in months 7 and 9. While retail transfers remain relatively consistent throughout the year, warehouse sales show a more pronounced seasonal variation, with higher sales in the latter half of the year.
 
 5. **Yearly Demand Trend**:
 ![alt text](images/year.png)
-The line chart depicts the yearly demand trends for retail transfers and warehouse sales. Both categories show a fluctuating pattern over the years. While retail transfers increased significantly in 2019, they declined in 2020. Warehouse sales exhibited a sharp increase in 2019 followed by a substantial decrease in 2020.
+<br>The line chart depicts the yearly demand trends for retail transfers and warehouse sales. Both categories show a fluctuating pattern over the years. While retail transfers increased significantly in 2019, they declined in 2020. Warehouse sales exhibited a sharp increase in 2019 followed by a substantial decrease in 2020.
 
 6. **Retail Transfers by Demand Class**:
 ![alt text](images/rettrans.png)
-The box plot illustrates the distribution of retail transfers across different demand classes. Class 2 shows a higher median and a wider range compared to the other two classes. Classes 0 and 1 exhibit similar distributions with low medians and relatively narrow ranges. The presence of outliers in all classes suggests the existence of extreme values that deviate from the typical patterns.
+<br>The box plot illustrates the distribution of retail transfers across different demand classes. Class 2 shows a higher median and a wider range compared to the other two classes. Classes 0 and 1 exhibit similar distributions with low medians and relatively narrow ranges. The presence of outliers in all classes suggests the existence of extreme values that deviate from the typical patterns.
 
 7. **Warehouse Sales by Demand Class**:
 ![alt text](images/waresales.png)
-The box plot illustrates the distribution of warehouse sales across different demand classes. Class 2 shows a higher median and a wider range compared to the other two classes. Classes 0 and 1 exhibit similar distributions with low medians and relatively narrow ranges. The presence of outliers in all classes suggests the existence of extreme values that deviate from the typical patterns.
+<br>The box plot illustrates the distribution of warehouse sales across different demand classes. Class 2 shows a higher median and a wider range compared to the other two classes. Classes 0 and 1 exhibit similar distributions with low medians and relatively narrow ranges. The presence of outliers in all classes suggests the existence of extreme values that deviate from the typical patterns.
 
 8. **Average Sales Volume by Demand Class**:
 ![alt text](images/avgsales.png)
-The bar chart compares the average sales volume for retail transfers and warehouse sales across different demand classes. Both categories show an increasing trend with higher demand classes. Warehouse sales consistently exceed retail transfers in each class, indicating a greater volume of warehouse sales compared to retail transfers. Additionally, the difference in average sales volume between the two categories becomes more pronounced with increasing demand class.
+<br>The bar chart compares the average sales volume for retail transfers and warehouse sales across different demand classes. Both categories show an increasing trend with higher demand classes. Warehouse sales consistently exceed retail transfers in each class, indicating a greater volume of warehouse sales compared to retail transfers. Additionally, the difference in average sales volume between the two categories becomes more pronounced with increasing demand class.
 
 9. **Outliers in Retail Transfers and Warehouse Sales**:
 ![alt text](images/outlier.png)
-The box plot illustrates the distribution of retail transfers and warehouse sales, highlighting the presence of numerous outliers in both categories. Retail transfers exhibit a smaller range with a few extreme values, while warehouse sales show a wider range with multiple outliers, suggesting greater variability in warehouse sales.
+<br>The box plot illustrates the distribution of retail transfers and warehouse sales, highlighting the presence of numerous outliers in both categories. Retail transfers exhibit a smaller range with a few extreme values, while warehouse sales show a wider range with multiple outliers, suggesting greater variability in warehouse sales.
 
 
 ## Model Development
